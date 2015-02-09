@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E73A8BA21A89312B00D36725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E73A8BA11A89312B00D36725 /* main.m */; };
+		E73A8BA51A89312B00D36725 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E73A8BA41A89312B00D36725 /* AppDelegate.m */; };
+		E73A8BA81A89312B00D36725 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E73A8BA71A89312B00D36725 /* ViewController.m */; };
+		E73A8BAB1A89312B00D36725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73A8BA91A89312B00D36725 /* Main.storyboard */; };
+		E73A8BAD1A89312B00D36725 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73A8BAC1A89312B00D36725 /* Images.xcassets */; };
+		E73A8BB01A89312B00D36725 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E73A8BAE1A89312B00D36725 /* LaunchScreen.xib */; };
+		E73A8BBC1A89312B00D36725 /* ARMapViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E73A8BBB1A89312B00D36725 /* ARMapViewDemoTests.m */; };
+		E73A8BC71A89315C00D36725 /* MKMapView+ARHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = E73A8BC61A89315C00D36725 /* MKMapView+ARHelpers.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E73A8BB61A89312B00D36725 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E73A8B941A89312B00D36725 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E73A8B9B1A89312B00D36725;
+			remoteInfo = ARMapViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E73A8B9C1A89312B00D36725 /* ARMapViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARMapViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73A8BA01A89312B00D36725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73A8BA11A89312B00D36725 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E73A8BA31A89312B00D36725 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E73A8BA41A89312B00D36725 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E73A8BA61A89312B00D36725 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E73A8BA71A89312B00D36725 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E73A8BAA1A89312B00D36725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E73A8BAC1A89312B00D36725 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E73A8BAF1A89312B00D36725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E73A8BB51A89312B00D36725 /* ARMapViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARMapViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73A8BBA1A89312B00D36725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73A8BBB1A89312B00D36725 /* ARMapViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARMapViewDemoTests.m; sourceTree = "<group>"; };
+		E73A8BC51A89315C00D36725 /* MKMapView+ARHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MKMapView+ARHelpers.h"; path = "../../ARMapView/MKMapView+ARHelpers.h"; sourceTree = "<group>"; };
+		E73A8BC61A89315C00D36725 /* MKMapView+ARHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MKMapView+ARHelpers.m"; path = "../../ARMapView/MKMapView+ARHelpers.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E73A8B991A89312B00D36725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73A8BB21A89312B00D36725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E73A8B931A89312B00D36725 = {
+			isa = PBXGroup;
+			children = (
+				E73A8B9E1A89312B00D36725 /* ARMapViewDemo */,
+				E73A8BB81A89312B00D36725 /* ARMapViewDemoTests */,
+				E73A8B9D1A89312B00D36725 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E73A8B9D1A89312B00D36725 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E73A8B9C1A89312B00D36725 /* ARMapViewDemo.app */,
+				E73A8BB51A89312B00D36725 /* ARMapViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E73A8B9E1A89312B00D36725 /* ARMapViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E73A8BA31A89312B00D36725 /* AppDelegate.h */,
+				E73A8BA41A89312B00D36725 /* AppDelegate.m */,
+				E73A8BA61A89312B00D36725 /* ViewController.h */,
+				E73A8BA71A89312B00D36725 /* ViewController.m */,
+				E73A8BC51A89315C00D36725 /* MKMapView+ARHelpers.h */,
+				E73A8BC61A89315C00D36725 /* MKMapView+ARHelpers.m */,
+				E73A8BA91A89312B00D36725 /* Main.storyboard */,
+				E73A8BAC1A89312B00D36725 /* Images.xcassets */,
+				E73A8BAE1A89312B00D36725 /* LaunchScreen.xib */,
+				E73A8B9F1A89312B00D36725 /* Supporting Files */,
+			);
+			path = ARMapViewDemo;
+			sourceTree = "<group>";
+		};
+		E73A8B9F1A89312B00D36725 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E73A8BA01A89312B00D36725 /* Info.plist */,
+				E73A8BA11A89312B00D36725 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E73A8BB81A89312B00D36725 /* ARMapViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E73A8BBB1A89312B00D36725 /* ARMapViewDemoTests.m */,
+				E73A8BB91A89312B00D36725 /* Supporting Files */,
+			);
+			path = ARMapViewDemoTests;
+			sourceTree = "<group>";
+		};
+		E73A8BB91A89312B00D36725 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E73A8BBA1A89312B00D36725 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E73A8B9B1A89312B00D36725 /* ARMapViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73A8BBF1A89312B00D36725 /* Build configuration list for PBXNativeTarget "ARMapViewDemo" */;
+			buildPhases = (
+				E73A8B981A89312B00D36725 /* Sources */,
+				E73A8B991A89312B00D36725 /* Frameworks */,
+				E73A8B9A1A89312B00D36725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARMapViewDemo;
+			productName = ARMapViewDemo;
+			productReference = E73A8B9C1A89312B00D36725 /* ARMapViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E73A8BB41A89312B00D36725 /* ARMapViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73A8BC21A89312B00D36725 /* Build configuration list for PBXNativeTarget "ARMapViewDemoTests" */;
+			buildPhases = (
+				E73A8BB11A89312B00D36725 /* Sources */,
+				E73A8BB21A89312B00D36725 /* Frameworks */,
+				E73A8BB31A89312B00D36725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E73A8BB71A89312B00D36725 /* PBXTargetDependency */,
+			);
+			name = ARMapViewDemoTests;
+			productName = ARMapViewDemoTests;
+			productReference = E73A8BB51A89312B00D36725 /* ARMapViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E73A8B941A89312B00D36725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Alex Reynolds";
+				TargetAttributes = {
+					E73A8B9B1A89312B00D36725 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E73A8BB41A89312B00D36725 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E73A8B9B1A89312B00D36725;
+					};
+				};
+			};
+			buildConfigurationList = E73A8B971A89312B00D36725 /* Build configuration list for PBXProject "ARMapViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E73A8B931A89312B00D36725;
+			productRefGroup = E73A8B9D1A89312B00D36725 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E73A8B9B1A89312B00D36725 /* ARMapViewDemo */,
+				E73A8BB41A89312B00D36725 /* ARMapViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E73A8B9A1A89312B00D36725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73A8BAB1A89312B00D36725 /* Main.storyboard in Resources */,
+				E73A8BB01A89312B00D36725 /* LaunchScreen.xib in Resources */,
+				E73A8BAD1A89312B00D36725 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73A8BB31A89312B00D36725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E73A8B981A89312B00D36725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73A8BA81A89312B00D36725 /* ViewController.m in Sources */,
+				E73A8BA51A89312B00D36725 /* AppDelegate.m in Sources */,
+				E73A8BC71A89315C00D36725 /* MKMapView+ARHelpers.m in Sources */,
+				E73A8BA21A89312B00D36725 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73A8BB11A89312B00D36725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73A8BBC1A89312B00D36725 /* ARMapViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E73A8BB71A89312B00D36725 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E73A8B9B1A89312B00D36725 /* ARMapViewDemo */;
+			targetProxy = E73A8BB61A89312B00D36725 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E73A8BA91A89312B00D36725 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E73A8BAA1A89312B00D36725 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E73A8BAE1A89312B00D36725 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E73A8BAF1A89312B00D36725 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E73A8BBD1A89312B00D36725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E73A8BBE1A89312B00D36725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E73A8BC01A89312B00D36725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ARMapViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E73A8BC11A89312B00D36725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ARMapViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E73A8BC31A89312B00D36725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ARMapViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARMapViewDemo.app/ARMapViewDemo";
+			};
+			name = Debug;
+		};
+		E73A8BC41A89312B00D36725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ARMapViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARMapViewDemo.app/ARMapViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E73A8B971A89312B00D36725 /* Build configuration list for PBXProject "ARMapViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73A8BBD1A89312B00D36725 /* Debug */,
+				E73A8BBE1A89312B00D36725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73A8BBF1A89312B00D36725 /* Build configuration list for PBXNativeTarget "ARMapViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73A8BC01A89312B00D36725 /* Debug */,
+				E73A8BC11A89312B00D36725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E73A8BC21A89312B00D36725 /* Build configuration list for PBXNativeTarget "ARMapViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73A8BC31A89312B00D36725 /* Debug */,
+				E73A8BC41A89312B00D36725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E73A8B941A89312B00D36725 /* Project object */;
+}
