@@ -43,10 +43,10 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+  s.source_files  = "ARMapView/*.{h,m}"
+  s.public_header_files = "ARMapView/*.h"
 
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
+  s.requires_arc = true
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
